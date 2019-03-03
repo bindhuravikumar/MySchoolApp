@@ -24,7 +24,7 @@ class InSchools extends Component {
                     
                     <div style={headerStyle}>{x.name}</div>
                     <div> Address: {x.street}, {x.city}, {x.state}</div>
-                    <div>Contact Number: {x.contact_number}</div>
+                    <div><b>Contact Number</b> : {x.contact_number}</div>
                     <footer style={footerStyle}>
                     </footer>
                 </div>
