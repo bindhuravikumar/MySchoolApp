@@ -23,7 +23,7 @@ class InSchools extends Component {
                     onClick= {() => clickevent(x.name)} key={x.name}>
                     
                     <div style={headerStyle}>{x.name}</div>
-                    <div> Address: {x.street}, {x.city}, {x.state}</div>
+                    <div> <b>Address:</b> {x.street}, {x.city}, {x.state}</div>
                     <div><b>Contact Number</b> : {x.contact_number}</div>
                     <footer style={footerStyle}>
                     </footer>
