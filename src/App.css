@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tabbbox {
+  border: 1px solid #006fcf;
+  background-color: #006fcf;
+  color: #fff;
+  border-right: 1px solid grey;
+  padding: 11px;
+}
+
+.text-box{
+  border-radius: 5px;
+    height: 24px;
+    border: 1px solid lightgray;
+}
+
+.user-name{
+  text-align: right;
+    padding: 11px;
+    font-weight: bold;
+}
+
+.card-flex{
+  display:flex;
+  justify-content : space-between;
+  flex-wrap: unwrap;
+  overflow:auto;
+  background-color:#f7f8f9;
+  color: #006fcf;
+  min-height: 40vh;
+  padding:22px
+}
+.title-name{
+  color: #006fcf;
+    font-weight: bold;
+    padding: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
